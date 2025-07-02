@@ -189,7 +189,8 @@ int main(){
         char name[30];
         int age, id;
 
-        cout << "\nEnter patient name: ";
+        cout<<"\nPatient No "<<i+1<<endl;
+        cout << "Enter patient name: ";
         cin >> name;
         cout << "Enter age: ";
         cin >> age;
